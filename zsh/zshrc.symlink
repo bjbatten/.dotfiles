@@ -1,7 +1,7 @@
 # shortcut to this dotfiles path is $DOTFILES
 export DOTFILES=$HOME/.dotfiles
 
-export EDITOR="nvim"
+export EDITOR="vim"
 export PROJECTEDITOR="atom"
 
 HISTFILE=~/.zsh_history
@@ -77,8 +77,6 @@ source $DOTFILES/zsh/custom_git_prompt.zsh
 source $DOTFILES/zsh/aliases.zsh
 source $DOTFILES/zsh/functions.zsh
 
-# Print out my todo's
-cat ~/todo
 [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
 
 # heroku autocomplete setup
